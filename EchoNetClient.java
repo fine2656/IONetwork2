@@ -1,4 +1,4 @@
-package net.day1;
+package net.day2;
 
 import java.net.*;
 import java.util.Scanner;
@@ -35,7 +35,7 @@ public class EchoNetClient {
 		String serverIp = sc.next();
 		
 		//1.통신하기 위한 Socket 객체 생성
-		final int port = 6000;
+		final int port = 10000;
 	
 			Socket sock = new Socket(serverIp, port);
 		
